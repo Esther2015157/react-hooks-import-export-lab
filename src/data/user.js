@@ -7,7 +7,7 @@ import image from "../data/user"
 function About() {}
   return 
     <div id="about"/>
-    export default username;city;image;
+    export default username;city;image;id;
     
 
 

@@ -6,7 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 10px;
 }
 
 h1,
@@ -27,12 +27,12 @@ nav {
 }
 
 nav a {
-  display: inline-block;
+  display: block inline-flexbox;
   padding: 0.5rem 1rem;
   margin: 0 1rem;
   text-decoration: none;
   font-size: 1.2em;
-  color: firebrick;
+  color: rgb(34, 178, 58);
   border-bottom: 2px solid firebrick;
   transition: 0.1s;
 }
@@ -45,14 +45,14 @@ nav a:active {
 
 #home,
 #about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  height: 50vh;
+  display:flex;
+  align-items:nav-right;
+  justify-content:left;
+  flex-direction:column;
+  text-align:left;
+  height: 60vh;
   min-height: 400px;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 #home {
@@ -60,5 +60,5 @@ nav a:active {
 }
 
 #about img {
-  max-height: 50%;
+  max-height: 90%;
 }
